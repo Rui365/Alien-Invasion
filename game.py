@@ -25,7 +25,9 @@ def run_game():
         while True:
                 gf.check_events(ai_settings, screen, ship, bullets)
                 ship.update() 
-                bullets.update()
+                #bullets.update()
+                gf.update_bullets(bullets)
+                gf.update_aliens(ai_settings, aliens)
 
                 for bullet in bullets.copy():
                         if bullet.rect.bottom <=0:
