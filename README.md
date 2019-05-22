@@ -1,3 +1,3 @@
 # Alien-Invasion
 
-This is a python game example in book *Python Crash Course*.
+This is a python game example in *Python Crash Course*.
